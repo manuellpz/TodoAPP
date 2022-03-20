@@ -1,9 +1,5 @@
 const txtItem = document.querySelector('#txtItem')
 const containerItems = document.querySelector('#container_items')
-let btnDeleteAll;
-
-
-
 
 const cargarItems = () => {
    fetch('./BACKEND/Operations.php?consulta')
